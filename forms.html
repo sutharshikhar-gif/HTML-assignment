@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>LOGIN FORM</h1>
+    <br>
+    <br>
+    <!--action mai url dalna hai jaha data bhejna hai aur method mai get ya post dalna hai
+    method 5 types ki hoti hai
+    1. get - 
+    2. post
+    3. put
+    4. delete
+    5. patch
+
+    method backend mai data bhejne ke liye use hoti hai aur action mai url dalna hota hai jaha data bhejna hai
+    method is a way to send backend data what we have to do with data(data ka kya karna hai ye method batata hai)
+    
+     -->
+    <form action="https://www.amazon.in/search" method="get">
+        <label for="name">
+            Name:
+            
+        </label>
+         <input type="text"  placeholder="Enter your name" id="name"
+         required minlength="3"name ="name">
+         <br>
+
+       <!-- foe name id ke liye use hota hai agar vo use nahi karna hai to input ko lebel tag ke andar dalna hota hai 
+        reqquired tab use karte hai jab koi chij jaruri ho or uske bina form submit nahi hoga -->
+    
+    
+        <!-- get and post mai diff
+         get= data url mai dikhata hai
+         post= data server ke andar dikhata hai -->
+        <br>
+
+    <!-- PASSWORD -->
+        <label for="password">
+            Password:
+            
+        </label>
+         <input type="password"  placeholder="Enter your password" id="password"
+         required minlength="6" name ="password">
+         <br>
+
+                 <!--url mai ? ke baad vale data ko qaury parameters kehte hain  -->
+
+         <!-- SUBMIT BUTTON -->
+         <input type="submit">
+
+         <!--email  -->
+
+
+         <!-- age -->
+       
+
+
+        label for dob 
+        <input type ="radio" id  ="male" name = "gender" value ="male">
+        <label for = "male">male</label>
+        <input type ="radio" id  ="female" name = "gender" value ="female">
+        <label for = "female">female</label>
+   
+    
+</body>
+</html>

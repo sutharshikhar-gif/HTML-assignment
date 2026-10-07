@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table border="4">
+      <tr>
+        <td>a</td>
+        <td>b</td>
+        <td>c</td>
+      </tr>
+      <tr>
+        <td>d</td>
+        <td>e</td>
+        <td>f</td>
+      </tr>
+    </table>
+    <!-- cellpadding se cells ke andar ka space set hota hai or 
+     cellspacing se rows ke bahr ka space set hota hai -->
+    
+    <table border="4" cellpadding="10" bgcolor="purple" cellspacing="10">
+      <tr bgcolor="yellow">
+        <td> <b>Header 1</b> </td>
+        <th>Header 2</th>
+        <th>Header 3</th>
+      </tr>
+      <tr bgcolor="green">
+        <td>a</td>
+        <td>b</td>
+        <td>c</td>
+      </tr>
+      <tr bgcolor="aqua">
+    
+        <td> d</td>
+        <td>e</td>
+        <td>f</td>
+      </tr>
+    </table>
+    <!-- tr se row mai likha jata hai 
+     jitni rows hongi utni tr hongi
+     agar pehli row mai 1 2 3 likhna ho to 3 td honge
+      
+     column add karne ke liye td lagega jo ki tr mai lagega
+     
+     cells lagane ho to border lagate hai or agar border nahi lagaya to only table ka data dikhaega 
+     
+     th tag header cells ke liye use hota hai -->
+
+     <!-- agar do rows ko merge karna ho to rowspan use karein 
+        agar pahle colum mai do cells merge karni hain to rowspan="2" use karein
+        -->
+        <table border="4">
+      <tr >
+        <td rowspan="2">a</td>
+        <td>b</td>
+        <td>c</td>
+      </tr>
+      <tr>
+        <td>d</td>
+        <td>e</td>
+      </tr>
+    </table>
+
+     <table border="4">
+      <tr >
+        <td colspan="2">a</td>
+        <td>b</td>
+        
+      </tr>
+      <tr>
+        <td>d</td>
+        <td>e</td>
+        <td>f</td>
+      </tr>
+    </table>
+    <table border="4" cellpadding="10" bgcolor="purple" cellspacing="10">
+      <tr bgcolor="yellow" >
+        <td> <b>Header 1</b> </td>
+        <th>Header 2</th>
+        <th>Header 3</th>
+      </tr>
+      <tr bgcolor="green">
+        <td>a</td>
+        <td>b</td>
+        <td>c</td>
+      </tr>
+      <tr bgcolor="aqua">
+    
+        <td> d</td>
+        <td>e</td>
+        <td>f</td>
+      </tr>
+    </table>
+  </body>
+</html>
